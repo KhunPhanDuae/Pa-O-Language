@@ -1,0 +1,71 @@
+
+body {
+      font-family: 'Myanmar Text', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+      margin: 10;
+      line-height: 1.6;
+    }
+yp {
+
+background: linear-gradient(135deg, #ffcccc, #ccffcc, #ccccff); 
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: "Noto Sans Myanmar", sans-serif;
+    text-align: center;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+    h1, h2 {
+      color: #0a6d3b;
+      font-size: 20px;
+}
+    .pattern {
+      background-color: #f0f9f5;
+      padding: 20px;
+      border-left: 5px solid #43a047;
+      margin-bottom: 10px;
+    }
+    .example {
+      background-color: #f1f8e9;
+      padding: 15px;
+      border-left: 4px solid #8bc34a;
+      margin-top: 15px;
+    }
+    .pattern-title {
+      font-weight: bold;
+      color: #33691e;
+    }
+
+.လိတ်သွဉ်ခန်ꩻအကွို့ꩻ{
+      background-color: #e8f5e9;
+      padding: 10;
+      border-left: 5px solid yellow;
+      margin-bottom: 20px;
+    }
+    .structure {
+      background-color: #e8f5e9;
+      padding: 5px;
+      border-left: 5px solid #43a047;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    th {
+      background-color: #c8e6c9;
+    }
+
+   .note {
+      font-style: italic;
+      color: #555;
+    }
+
