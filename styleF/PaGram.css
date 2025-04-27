@@ -6,6 +6,18 @@ body {
       margin: 10;
       line-height: 1.6;
     }
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+      footer {
+    text-align: center;
+    padding: 10px;
+    background: #555;
+    color: #fff;
+}
 .yp {
 
 background: linear-gradient(135deg, #ffcccc, #ccffcc, #ccccff); 
