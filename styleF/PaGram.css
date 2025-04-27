@@ -26,11 +26,13 @@ background: linear-gradient(135deg, #ffcccc, #ccffcc, #ccccff);
       padding: 20px;
       border-left: 5px solid #43a047;
       margin-bottom: 10px;
+      border-radius: 8px;
     }
     .example {
       background-color: #f1f8e9;
       padding: 15px;
       border-left: 4px solid #8bc34a;
+     border-radius: 8px;
       margin-top: 15px;
     }
     .pattern-title {
@@ -43,12 +45,14 @@ background: linear-gradient(135deg, #ffcccc, #ccffcc, #ccccff);
       padding: 10;
       border-left: 5px solid yellow;
       margin-bottom: 20px;
+  border-radius: 8px;
     }
     .structure {
       background-color: #e8f5e9;
       padding: 5px;
       border-left: 5px solid #43a047;
       margin-bottom: 20px;
+ border-radius: 8px;
     }
     table {
       width: 100%;
@@ -68,4 +72,34 @@ background: linear-gradient(135deg, #ffcccc, #ccffcc, #ccccff);
       font-style: italic;
       color: #555;
     }
+
+    .container2 {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .section {
+      background: #ffffff;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+        border-radius: 8px;
+      border-left: 5px solid #4caf50;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      margin-top: 0;
+      color: #388e3c;
+    }
+    ol {
+      margin-left: 30px;
+      color: #555;
+    }
+    ol li {
+      margin-bottom: 5px;
+    }
+
 
