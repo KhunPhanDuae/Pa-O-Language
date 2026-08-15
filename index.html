@@ -1,68 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="my">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pa'O Language Learning</title>
     <style>
+        /* ===== Global ===== */
+        * {
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth; /* Menu နှိပ်ပါက ငြင်သာစွာ ရွှေ့လျားရန် */
+        }
         body {
-            font-family: Arial, sans-serif;
+            /* ပအိုဝ်းနှင့် မြန်မာစာလုံးများ ပိုမို ပီပြင်စွာ ထွက်ပေါ်လာစေရန် Font များ ဖြည့်စွက်ထားသည် */
+            font-family: "Padauk", "Pyidaungsu", "Myanmar Text", Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            line-height: 1.6;
         }
+
+        /* ===== Header ===== */
         header {
             background-color: #4CAF50;
             color: white;
             padding: 1em;
             text-align: center;
         }
+
+        /* ===== Navigation ===== */
         nav {
-            margin: 0;
-            padding: 1em;
             background-color: #333;
+            padding: 0.8em 1em;
+            text-align: center;
+            position: sticky; /* Menu ကို အပေါ်တွင် ကပ်နေစေရန် */
+            top: 0;
+            z-index: 1000;
         }
         nav a {
             color: white;
-            padding: 0.5em;
+            padding: 0.5em 1em;
             text-decoration: none;
             display: inline-block;
+            font-size: 1rem;
+            transition: background-color 0.3s;
         }
         nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        main {
-            padding: 1em;
-        }
-        footer {
             background-color: #4CAF50;
+            color: white;
+            border-radius: 4px;
+        }
+
+        /* ===== Main ===== */
+        main {
+            flex: 1;
+            padding: 1.5em;
+            max-width: 900px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .lesson-section {
+            background: white;
+            padding: 1.2em 1.5em;
+            margin-bottom: 1.5em;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .lesson-section h2 {
+            color: #2c3e50;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 0.3em;
+            margin-top: 0;
+        }
+        ul {
+            padding-left: 1.5em;
+        }
+        li {
+            margin-bottom: 0.4em;
+        }
+
+        /* ===== Footer ===== */
+        footer {
+            background-color: #333;
             color: white;
             text-align: center;
             padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            margin-top: auto;
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 0.2em 0;
+            }
+            .lesson-section {
+                padding: 1em;
+            }
         }
     </style>
 </head>
 <body>
+
+    <!-- Header -->
     <header>
         <h1>Pa'O Language Learning</h1>
     </header>
+
+    <!-- Navigation -->
     <nav>
         <a href="#home">Home</a>
         <a href="#alphabet">Alphabet</a>
         <a href="#greetings">Greetings</a>
-        <a href="#self-intro">Self-Introduction</a>
-        <a href="#contact">Contact</a>
+        <a href="#selfintro">Self-Introduction</a>
+        <a href="#pronouns">Pronouns</a>
+        <a href="#basics">Basics</a>
     </nav>
+
+    <!-- Main Content -->
     <main>
-        <section id="home">
+
+        <!-- Home Section -->
+        <section id="home" class="lesson-section">
             <h2>Welcome to Pa'O Language Learning</h2>
             <p>Learn Pa'O language through our structured lessons and interactive exercises.</p>
         </section>
-        <section id="alphabet">
+
+        <!-- Alphabet Section -->
+        <section id="alphabet" class="lesson-section">
             <h2>Pa-O Alphabet</h2>
             <p>Learn the basics of the Pa-O alphabet and pronunciation.</p>
             <ul>
@@ -70,97 +139,94 @@
                 <li>ခ - kha</li>
                 <li>ဂ - ga</li>
                 <li>င - nga</li>
-                <!-- Add more alphabets as needed -->
             </ul>
         </section>
-        <section id="greetings">
-            <h2>Greetings</h2>
-            <p>Common greetings in Pa-O:</p>
-            <ul>
-                <li>ခွဲးဟဝ်ဒျာႏ - Hello</li>
-                <li>အုံဟဝ်နေꩻ - How are you?</li>
-                <li>ကေႏဇူꩻတင်ႏငါႏဩ - Thank you</li>
-                <!-- Add more greetings as needed -->
-            </ul>
-        </section>
-        <section id="self-intro">
-            <h2>Self-Introduction</h2>
-            <p>Introduce yourself in Pa'O Karen:</p>
-            <ul>
-                <li>ခွေမဉ်ꩻနဝ်ꩻ...ဒျာႏသွူ - My name is...</li>
-                <li>နာꩻမဉ်ꩻနုဲင်းမုဲင်ꩻ - What is your name?</li>
-                <!-- Add more phrases as needed -->
-            </ul>
-        </section>
-        
-        <section id="greetings">
+
+        <!-- Greetings Section -->
+        <section id="greetings" class="lesson-section">
             <h2>Greetings and Common Expressions</h2>
             <p>Common greetings in Pa-O:</p>
             <ul>
-                <li>Hello: ခွဲးဟဝ်ဒျာႏ (kawe-har-dyar)</li>
-                <li>How are you?: အုံဟတ်နေꩻ (on hwan-nay)?</li>
-                <li>I'm fine, thank you.: ခွေအုံဟဝ်ဒျာႏ၊ ကေႏဇူꩻတင်ႏငါႏ (kway on hor dyar, kay ju tann ngar)
-</li>
-   <li>Thank you: ကေႏဇူꩻတင်ႏငါႏ (kay-ju-tann-ngar) </li> 
-<li> Yes: မွေး (mway)</li>   
-<li> No: မွေးတဝ်း (mway-tar)</li>
-<li> Please: တဆင်ႏ (ta-shan)</li>
-<li>Excuse me / Sorry: တဆင်ႏမွိုင်ꩻ (ta shan mong)
- </li>
-    <!-- Add more greetings as needed -->
+                <li><strong>ခွဲးဟောဝ်ဒျာႏ</strong> (kawe-har-dyar) - Hello</li>
+                <li><strong>အုံဟောဝ်နေꩻ</strong> (on hwan-nay) - How are you?</li>
+                <li><strong>ကေႏဇူꩻတင်ႏငါႏ</strong> (kay-ju-tann-ngar) - Thank you</li>
+                <li><strong>မွေး</strong> (mway) - Yes</li>
+                <li><strong>မွေးတဝ်း</strong> (mway-tar) - No</li>
+                <li><strong>တဆင်ႏ</strong> (ta-shan) - Please</li>
+                <li><strong>တဆင်ႏမွိုင်ꩻ</strong> (ta shan mong) - Excuse me / Sorry</li>
             </ul>
         </section>
 
-
-        <section id="Common Words">
-            <h2>Pronouns
-</h2>
-            <p>:</p>
+        <!-- Self-Introduction Section -->
+        <section id="selfintro" class="lesson-section">
+            <h2>Self-Introduction</h2>
+            <p>Introduce yourself in Pa'O Karen:</p>
             <ul>
-                <li>)I / Me: ခွေ (kway)</li>
-                <li>You: နာꩻ (na)
-</li>
-                <li>He / She / It: ဝွေꩻ (way)</li>
-   <li>We / Us: နီ (ni) </li> 
-<li>They / Them: ဝွေꩻသီး (way see)
- </li>   
-    <!-- Add more word as needed -->
+                <li><strong>ခွေမဉ်ꩻနဝ်ꩻ...ဒျာႏသွူ</strong> - My name is...</li>
+                <li><strong>နာꩻမဉ်ꩻနုဲင်းမုဲင်ꩻ</strong> - What is your name?</li>
             </ul>
         </section>
 
+        <!-- Pronouns Section -->
+        <section id="pronouns" class="lesson-section">
+            <h2>Pronouns</h2>
+            <ul>
+                <li><strong>I / Me:</strong> ခွေ (kway)</li>
+                <li><strong>You:</strong> နာꩻ (na)</li>
+                <li><strong>He / She / It:</strong> ဝွေꩻ (way)</li>
+                <li><strong>We / Us:</strong> နီ (ni)</li>
+                <li><strong>They / Them:</strong> ဝွေꩻသီး (way zee)</li>
+            </ul>
+        </section>
 
-      
-        <section id="">
-            <h2>basics</h2>        <ul>
-        
-            <p>Basic Verbs
-<li>- Eat: အံႏ (aan)</li>
-<li>- Drink: အွꩻ (aw)</li>
-<li>- Sleep: ဗေင်ႏ (bain)</li>
-<li>- Go: လွေꩻ (lway)</li>
-<li>- Come: လွဉ် (lawn)</li>
+        <!-- Basic Verbs & Sentences Section -->
+        <section id="basics" class="lesson-section">
+            <h2>Basic Verbs &amp; Simple Sentences</h2>
 
-Simple Sentences
+            <h3>Basic Verbs</h3>
+            <ul>
+                <li><strong>Eat:</strong> အံႏ (aan)</li>
+                <li><strong>Drink:</strong> အွꩻ (aw)</li>
+                <li><strong>Sleep:</strong> ဗေင်ႏ (bain)</li>
+                <li><strong>Go:</strong> လွေꩻ (lway)</li>
+                <li><strong>Come:</strong> လွဉ် (lawn)</li>
+            </ul>
 
-Statements
-<li>- I want to eat.: ခွေမဲဉ်အံႏငါႏ (kway men aan ngar)</li>
-<li>- You are going.: နာꩻအဝ်ႏလွေꩻထာꩻ (na eor lway htar)</li>
-<li>- He is sleeping.: ဝွေꩻအဝ်ႏဗေင်ႏထာꩻ (way eor-bain-htar)</li>
+            <h3>Statements</h3>
+            <ul>
+                <li><strong>I want to eat.:</strong> ခွေမဲဉ်အံႏငါႏ (kway men aan ngar)</li>
+                <li><strong>You are going.:</strong> နာꩻအောဝ်ႏလွေꩻထာꩻ (na eor lway htar)</li>
+                <li><strong>He is sleeping.:</strong> ဝွေꩻအောဝ်ႏဗေင်ႏထာꩻ (way eor-bain-htar)</li>
+            </ul>
 
-Questions
-<li>- Are you hungry?: နာꩻဟို့ꩻခိုးနေꩻဒဲဉ်? (na hoet koe nay den)</li>
-<li>- Where are you going?: နာꩻအီႏလွေꩻမုဲင်ꩻ? (na aee-lway-mai)</li>
-<li>- What is your name?: နာꩻမဉ်ꩻနုဲင်းမုဲင်ꩻ (na-me nai-mai)</li>
+            <h3>Questions</h3>
+            <ul>
+                <li><strong>Are you hungry?:</strong> နာꩻဟို့ꩻခိုးနေꩻဒဲဉ်? (na hoet koe nay den)</li>
+                <li><strong>Where are you going?:</strong> နာꩻအီႏလွေꩻမုဲင်ꩻ? (na aee-lway-mai)</li>
+                <li><strong>What is your name?:</strong> နာꩻမဉ်ꩻတမုဲင်ꩻ (na-me ta-mai)</li>
+            </ul>
 
-Numbers
-<li>- One: တာ (ta)</li>
-<li>- Two: နီ (ni)</li>
-<li>- Three: သွံ (shone)</li>
-<li>- Four: လစ်ꩻ (lea)</li>
-<li>- Five: ငတ်ꩻ (ngat)</li>
-</p>        </ul>        </section>
+            <h3>Numbers</h3>
+            <ul>
+                <li><strong>One:</strong> တာ (ta)</li>
+                <li><strong>Two:</strong> နီ (ni)</li>
+                <li><strong>Three:</strong> သွံ (shone)</li>
+                <li><strong>Four:</strong> လစ်ꩻ (lea)</li>
+                <li><strong>Five:</strong> ငတ်ꩻ (ngat)</li>
+            </ul>
+        </section>
+
+        <!-- Next Button -->
+        <div style="text-align: right; margin-top: 1em;">
+            <a href="#alphabet" style="background:#4CAF50; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; display:inline-block;">Next Lesson →</a>
+        </div>
+
     </main>
+
+    <!-- Footer -->
     <footer>
-        <a href="Pa-O Language l1">Next</a> |</p>
+        &copy; 2026 Pa'O Language Learning. All rights reserved.
     </footer>
+
 </body>
+</html>
