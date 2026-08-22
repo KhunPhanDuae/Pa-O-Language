@@ -61,6 +61,19 @@ Learn Pa'O language through our structured lessons and daily conversational prac
 ထာꩻမာꩻထွူလဲဉ်း = htar mar thoo len, အလုပ်ပြီးသွားပြီ
 ယိုနဝ်ꩻဟောဝ်ငါႏ = yo naw hwan ngar, ဒါ အရမ်းကောင်းတယ်
 ခွေအောဝ်ႏဒျာႏ လမ်း = kway eor dyar lam, ကျွန်တော် အိမ်မှာရှိတယ်
+နာꩻအောဝ်ႏလွေꩻထာꩻ = na eor lway htar,မင်းသွားနေတယ်
+ဝွေꩻအောဝ်ႏဗေင်ႏထာꩻ = way eor-bain-htar,သူအိပ်နေတယ်
+=== Questions ===
+နာꩻဟို့ꩻခိုးနေꩻဒဲဉ်? = na hoet koe nay den,မင်းဗိုက်ဆာလား?
+နာꩻအီႏလွေꩻမုဲင်ꩻ? = na aee-lway-mai,မင်းဘယ်သွားမလဲ
+နာꩻမဉ်ꩻတမုဲင်ꩻ = na-me ta-mai,နာမည်ဘယ်လိုခေါ်လဲ
+မွေး= mway,ဟုတ်
+မွေးတောဝ်း = mway-tar,မဟုတ်ဘူး
+တဆင်ႏ =ta-shang,ခဏလေး
+တဆင်ႏမွိုင်ꩻ=ta shang mone,တစ်ချက်လောက်
+ခွေမဉ်ꩻနဝ်ꩻ...ဒျာႏသွူ =kway me naw ... dyar swoo, ငါနာမည်က...ပါ
+
+
 
 
 [workplace | Workplace | Workplace & Daily Activities]
