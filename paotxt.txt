@@ -10,19 +10,29 @@ Learn Pa'O language through our structured lessons and daily conversational prac
 [greetings | Greetings | Greetings & Common Expressions]
 ခွဲးဟောဝ်ဒျာႏ = kawe-har-dyar, မင်္ဂလာပါ
 အုံဟောဝ်နေꩻ = on hwan-nay, နေကောင်းရဲ့လား
-ကေႏဇူꩻတင်ႏငါႏ = kay-ju-tann-ngar, ကျေးဇူးတင်ပါတယ်
+ကေႏဇူꩻတင်ႏငါႏ = kay-ju-tang-ngar, ကျေးဇူးတင်ပါတယ်
+ကျိုႏဆွုမ်ႏဒျာႏ = kyoe shoe dyar, ကြိုဆိုပါတယ်
+လွေꩻကနေား = lway ka naw, သွားတော့မယ်နော်
+ဆုဲင်ꩻမဲ့ꩻခွဲးယင်းဝင်ꩻ = shui mae kwae yang wang, နောက်မှပြန်တွေ့ကြမယ်
+မော့ꩻခွဲးဗာႏတောဝ်းဝင်ꩻညလဲဉ်း = mort kwae ba taow wang nya len, မတွေ့တာကြာပြီ
+အုံဟောဝ်ဟောဝ်နေား = om hwan hwan naw, ဂရုစိုက်ပါနော်
+ထွာတောဝ်းမုဲင်ꩻမုဲင်ꩻ = htwar taw mui mui, ရပါတယ် / ကိစ္စမရှိပါဘူး
+မင်္ဂလာႏဒျာႏ မွူးရောဝ်ꩻခိုႏဩ= mang-ga-lar dyar mue raw kho ow, မင်္ဂလာနံနက်ခင်းပါ
+မင်္ဂလာႏဒျာႏ မွူးဟာခိုႏဩ = mang-ga-lar dyar mue har kho ow, မင်္ဂလာညချမ်းပါ
+ဗေင်ႏဟောဝ်ဟောဝ်နေား = bain hwan hwan naw, ကောင်းသောညပါ / အိပ်မက်လှလှမက်ပါစေ
+လွေꩻဟောဝ်သဲင်ꩻဟောဝ်နေား = lway hwan thein hwan naw, ဘေးကင်းစွာ သွားလာနိုင်ပါစေ
 
 [basics | Basics | Basic Verbs & Sentences]
 
 === Basic Verbs ===
-အံႏ = aan, စားသည်
+အံႏ = am, စားသည်
 အွꩻ = aw, သောက်သည်
 ဗေင်ႏ = bain, အိပ်သည်
 
 === Statements ===
-ခွေမဲဉ်အံႏငါႏ = kway men aan ngar, ကျွန်တော် စားချင်တယ်
+ခွေမဲဉ်အံႏငါႏ = kway men am ngar, ကျွန်တော် စားချင်တယ်
 နာꩻအောဝ်ႏလွေꩻထာꩻ = na eor lway htar, မင်း သွားနေတယ်
 
 [workplace | Workplace | Workplace & Daily Activities]
-အဝ်ႏမာꩻထာꩻ = aw mar htar, အလုပ်လုပ်နေတယ်
-မာꩻထွူလဲဉ်းနဲ့ = mar thoo len nae?, ပြီးပြီလား
+အဝ်ႏမာꩻ ထာꩻမာꩻ = aw mar htar mar, အလုပ်လုပ်နေတယ်
+မာꩻထွူလဲဉ်းနဲ့ = mar thoo len nae?, လုပ်ပြီးပြီလား
