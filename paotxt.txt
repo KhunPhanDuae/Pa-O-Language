@@ -49,6 +49,19 @@ Learn Pa'O language through our structured lessons and daily conversational prac
 === Statements ===
 ခွေမဲဉ်အံႏငါႏ = kway men am ngar, ကျွန်တော် စားချင်တယ်
 နာꩻအောဝ်ႏလွေꩻထာꩻ = na eor lway htar, မင်း သွားနေတယ်
+ခွေအီႏသဲင်ꩻလမ်း = kway aee sein lam, ကျွန်တော် အိမ်ပြန်မလို့
+ခွေအောဝ်ႏအံႏဒဲဉ် = kway eor am den, ကျွန်တော် ထမင်းစားနေတယ်
+ခွေအီႏလွေꩻမာꩻ ထာꩻမာꩻ = kway aee lway mar htar mar, ကျွန်တော် အလုပ်သွားမလို့
+ဟန်ႏနီꩻလျားငါႏ = han ni lyar ngar, ဒီနေ့ အရမ်းပူတယ်
+မုဲင်ꩻမုဲင်ꩻတအောဝ်ႏတဝ်း = mui mui ta eor taw, ကိစ္စမရှိပါဘူး / ရပါတယ်
+ခွေသေတဝ်း = kway sey taw, ကျွန်တော် မသိဘူး
+ခွေရွိုးငါႏ = kway rwo ngar, ကျွန်တော် မောတယ် / ပင်ပန်းတယ်
+ခွေသꩻရေꩻမွေးငါႏ = kway tha yay ngar, ကျွန်တော် အရမ်းဝမ်းသာပါတယ်
+ယို အံႏအွီႏမွေးငါႏ = yo am awee mwe ngar, ဒါ အရမ်းအရသာရှိတယ်
+ထာꩻမာꩻထွူလဲဉ်း = htar mar thoo len, အလုပ်ပြီးသွားပြီ
+ယိုနဝ်ꩻဟောဝ်ငါႏ = yo naw hwan ngar, ဒါ အရမ်းကောင်းတယ်
+ခွေအောဝ်ႏဒျာႏ လမ်း = kway eor dyar lam, ကျွန်တော် အိမ်မှာရှိတယ်
+
 
 [workplace | Workplace | Workplace & Daily Activities]
 အဝ်ႏမာꩻ ထာꩻမာꩻ = aw mar htar mar, အလုပ်လုပ်နေတယ်
