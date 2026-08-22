@@ -28,6 +28,23 @@ Learn Pa'O language through our structured lessons and daily conversational prac
 အံႏ = am, စားသည်
 အွꩻ = aw, သောက်သည်
 ဗေင်ႏ = bain, အိပ်သည်
+လွေꩻ = lway, သွားသည်
+လွဉ် = lawn, လာသည်
+ထွား = thwar, ကြည့်သည်
+နာႏ = nar, နားထောင်သည်
+ဒေါ့ꩻ = dawnd, ပြောသည်
+မာꩻ = mar, လုပ်သည်
+ဖြေꩻ = fray, ဝယ်သည်
+စာ = jar, ရောင်းသည်
+ထူႏ = htoo, ယူသည်
+ဖေႏ = hpay, ပေးသည်
+အုံ = ong, ထိုင်သည် / နေသည်
+ထွိုင်ႏ = hton, ထသည် / မတ်တပ်ရပ်သည်
+ထွားဒေါ့ꩻ = htwar dawnd , စာဖတ်သည်
+သေ = say, သိသည်
+ကျွိုက် = kyoik, ကြိုက်သည်
+ယူႏ = yuu, တွေးသည် / စဉ်းစားသည်
+ငထာꩻ = nya htar, ရယ်မောသည်
 
 === Statements ===
 ခွေမဲဉ်အံႏငါႏ = kway men am ngar, ကျွန်တော် စားချင်တယ်
