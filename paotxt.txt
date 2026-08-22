@@ -1,0 +1,28 @@
+[home | Home | Welcome to Pa'O Language Learning]
+Learn Pa'O language through our structured lessons and daily conversational practice.
+
+[alphabet | Alphabet | Pa-O Alphabet & Pronunciation]
+က = ka, က
+ခ = kha, ခ
+ဂ = ga, ဂ
+င = nga, င
+
+[greetings | Greetings | Greetings & Common Expressions]
+ခွဲးဟောဝ်ဒျာႏ = kawe-har-dyar, မင်္ဂလာပါ
+အုံဟောဝ်နေꩻ = on hwan-nay, နေကောင်းရဲ့လား
+ကေႏဇူꩻတင်ႏငါႏ = kay-ju-tann-ngar, ကျေးဇူးတင်ပါတယ်
+
+[basics | Basics | Basic Verbs & Sentences]
+
+=== Basic Verbs ===
+အံႏ = aan, စားသည်
+အွꩻ = aw, သောက်သည်
+ဗေင်ႏ = bain, အိပ်သည်
+
+=== Statements ===
+ခွေမဲဉ်အံႏငါႏ = kway men aan ngar, ကျွန်တော် စားချင်တယ်
+နာꩻအောဝ်ႏလွေꩻထာꩻ = na eor lway htar, မင်း သွားနေတယ်
+
+[workplace | Workplace | Workplace & Daily Activities]
+အဝ်ႏမာꩻထာꩻ = aw mar htar, အလုပ်လုပ်နေတယ်
+မာꩻထွူလဲဉ်းနဲ့ = mar thoo len nae?, ပြီးပြီလား
