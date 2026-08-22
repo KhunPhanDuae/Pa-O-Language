@@ -5,228 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pa'O Language Learning</title>
     <style>
-        /* ===== Global ===== */
-        * {
-            box-sizing: border-box;
-        }
-        html {
-            scroll-behavior: smooth; /* Menu နှိပ်ပါက ငြင်သာစွာ ရွှေ့လျားရန် */
-        }
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
         body {
-            /* ပအိုဝ်းနှင့် မြန်မာစာလုံးများ ပိုမို ပီပြင်စွာ ထွက်ပေါ်လာစေရန် Font များ ဖြည့်စွက်ထားသည် */
             font-family: "Padauk", "Pyidaungsu", "Myanmar Text", Arial, sans-serif;
             background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            line-height: 1.6;
+            margin: 0; padding: 0;
+            display: flex; flex-direction: column; min-height: 100vh; line-height: 1.6;
         }
-
-        /* ===== Header ===== */
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
-
-        /* ===== Navigation ===== */
+        header { background-color: #4CAF50; color: white; padding: 1em; text-align: center; }
         nav {
-            background-color: #333;
-            padding: 0.8em 1em;
-            text-align: center;
-            position: sticky; /* Menu ကို အပေါ်တွင် ကပ်နေစေရန် */
-            top: 0;
-            z-index: 1000;
+            background-color: #333; padding: 0.8em 1em; text-align: center;
+            position: sticky; top: 0; z-index: 1000;
         }
         nav a {
-            color: white;
-            padding: 0.5em 1em;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 1rem;
-            transition: background-color 0.3s;
+            color: white; padding: 0.5em 0.8em; text-decoration: none;
+            display: inline-block; font-size: 0.95rem; transition: background-color 0.3s;
         }
-        nav a:hover {
-            background-color: #4CAF50;
-            color: white;
-            border-radius: 4px;
-        }
-
-        /* ===== Main ===== */
-        main {
-            flex: 1;
-            padding: 1.5em;
-            max-width: 900px;
-            margin: 0 auto;
-            width: 100%;
-        }
+        nav a:hover { background-color: #4CAF50; color: white; border-radius: 4px; }
+        main { flex: 1; padding: 1.5em; max-width: 900px; margin: 0 auto; width: 100%; }
         .lesson-section {
-            background: white;
-            padding: 1.2em 1.5em;
-            margin-bottom: 1.5em;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            background: white; padding: 1.2em 1.5em; margin-bottom: 1.5em;
+            border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         .lesson-section h2 {
-            color: #2c3e50;
-            border-bottom: 3px solid #4CAF50;
-            padding-bottom: 0.3em;
-            margin-top: 0;
+            color: #2c3e50; border-bottom: 3px solid #4CAF50; padding-bottom: 0.3em; margin-top: 0;
         }
-        ul {
-            padding-left: 1.5em;
+        .lesson-section h3 {
+            color: #34495e; margin-top: 1.2em; margin-bottom: 0.4em;
         }
-        li {
-            margin-bottom: 0.4em;
-        }
-
-        /* ===== Footer ===== */
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-            margin-top: auto;
-        }
-
-        /* ===== Responsive ===== */
+        ul { padding-left: 1.5em; }
+        li { margin-bottom: 0.5em; }
+        footer { background-color: #333; color: white; text-align: center; padding: 1em; margin-top: auto; }
         @media (max-width: 600px) {
-            nav a {
-                display: block;
-                margin: 0.2em 0;
-            }
-            .lesson-section {
-                padding: 1em;
-            }
+            nav a { display: inline-block; padding: 0.4em 0.6em; font-size: 0.85rem; }
+            .lesson-section { padding: 1em; }
         }
     </style>
 </head>
 <body>
 
-    <!-- Header -->
     <header>
         <h1>Pa'O Language Learning</h1>
     </header>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#alphabet">Alphabet</a>
-        <a href="#greetings">Greetings</a>
-        <a href="#selfintro">Self-Introduction</a>
-        <a href="#pronouns">Pronouns</a>
-        <a href="#basics">Basics</a>
-    </nav>
+    <!-- Navigation Menu (paotxt.txt မှ အလိုအလျောက် ဆောက်ပေးမည်) -->
+    <nav id="navbar"></nav>
 
-    <!-- Main Content -->
-    <main>
+    <!-- Main Content (paotxt.txt မှ အလိုအလျောက် ဆောက်ပေးမည်) -->
+    <main id="app"></main>
 
-        <!-- Home Section -->
-        <section id="home" class="lesson-section">
-            <h2>Welcome to Pa'O Language Learning</h2>
-            <p>Learn Pa'O language through our structured lessons and interactive exercises.</p>
-        </section>
-
-        <!-- Alphabet Section -->
-        <section id="alphabet" class="lesson-section">
-            <h2>Pa-O Alphabet</h2>
-            <p>Learn the basics of the Pa-O alphabet and pronunciation.</p>
-            <ul>
-                <li>က - ka</li>
-                <li>ခ - kha</li>
-                <li>ဂ - ga</li>
-                <li>င - nga</li>
-            </ul>
-        </section>
-
-        <!-- Greetings Section -->
-        <section id="greetings" class="lesson-section">
-            <h2>Greetings and Common Expressions</h2>
-            <p>Common greetings in Pa-O:</p>
-            <ul>
-                <li><strong>ခွဲးဟောဝ်ဒျာႏ</strong> (kawe-har-dyar) - Hello</li>
-                <li><strong>အုံဟောဝ်နေꩻ</strong> (on hwan-nay) - How are you?</li>
-                <li><strong>ကေႏဇူꩻတင်ႏငါႏ</strong> (kay-ju-tann-ngar) - Thank you</li>
-                <li><strong>မွေး</strong> (mway) - Yes</li>
-                <li><strong>မွေးတဝ်း</strong> (mway-tar) - No</li>
-                <li><strong>တဆင်ႏ</strong> (ta-shan) - Please</li>
-                <li><strong>တဆင်ႏမွိုင်ꩻ</strong> (ta shan mong) - Excuse me / Sorry</li>
-            </ul>
-        </section>
-
-        <!-- Self-Introduction Section -->
-        <section id="selfintro" class="lesson-section">
-            <h2>Self-Introduction</h2>
-            <p>Introduce yourself in Pa'O Karen:</p>
-            <ul>
-                <li><strong>ခွေမဉ်ꩻနဝ်ꩻ...ဒျာႏသွူ</strong> - My name is...</li>
-                <li><strong>နာꩻမဉ်ꩻနုဲင်းမုဲင်ꩻ</strong> - What is your name?</li>
-            </ul>
-        </section>
-
-        <!-- Pronouns Section -->
-        <section id="pronouns" class="lesson-section">
-            <h2>Pronouns</h2>
-            <ul>
-                <li><strong>I / Me:</strong> ခွေ (kway)</li>
-                <li><strong>You:</strong> နာꩻ (na)</li>
-                <li><strong>He / She / It:</strong> ဝွေꩻ (way)</li>
-                <li><strong>We / Us:</strong> နီ (ni)</li>
-                <li><strong>They / Them:</strong> ဝွေꩻသီး (way zee)</li>
-            </ul>
-        </section>
-
-        <!-- Basic Verbs & Sentences Section -->
-        <section id="basics" class="lesson-section">
-            <h2>Basic Verbs &amp; Simple Sentences</h2>
-
-            <h3>Basic Verbs</h3>
-            <ul>
-                <li><strong>Eat:</strong> အံႏ (aan)</li>
-                <li><strong>Drink:</strong> အွꩻ (aw)</li>
-                <li><strong>Sleep:</strong> ဗေင်ႏ (bain)</li>
-                <li><strong>Go:</strong> လွေꩻ (lway)</li>
-                <li><strong>Come:</strong> လွဉ် (lawn)</li>
-            </ul>
-
-            <h3>Statements</h3>
-            <ul>
-                <li><strong>I want to eat.:</strong> ခွေမဲဉ်အံႏငါႏ (kway men aan ngar)</li>
-                <li><strong>You are going.:</strong> နာꩻအောဝ်ႏလွေꩻထာꩻ (na eor lway htar)</li>
-                <li><strong>He is sleeping.:</strong> ဝွေꩻအောဝ်ႏဗေင်ႏထာꩻ (way eor-bain-htar)</li>
-            </ul>
-
-            <h3>Questions</h3>
-            <ul>
-                <li><strong>Are you hungry?:</strong> နာꩻဟို့ꩻခိုးနေꩻဒဲဉ်? (na hoet koe nay den)</li>
-                <li><strong>Where are you going?:</strong> နာꩻအီႏလွေꩻမုဲင်ꩻ? (na aee-lway-mai)</li>
-                <li><strong>What is your name?:</strong> နာꩻမဉ်ꩻတမုဲင်ꩻ (na-me ta-mai)</li>
-            </ul>
-
-            <h3>Numbers</h3>
-            <ul>
-                <li><strong>One:</strong> တာ (ta)</li>
-                <li><strong>Two:</strong> နီ (ni)</li>
-                <li><strong>Three:</strong> သွံ (shone)</li>
-                <li><strong>Four:</strong> လစ်ꩻ (lea)</li>
-                <li><strong>Five:</strong> ငတ်ꩻ (ngat)</li>
-            </ul>
-        </section>
-
-        <!-- Next Button -->
-        <div style="text-align: right; margin-top: 1em;">
-            <a href="#alphabet" style="background:#4CAF50; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; display:inline-block;">Next Lesson →</a>
-        </div>
-
-    </main>
-
-    <!-- Footer -->
     <footer>
         &copy; 2026 Pa'O Language Learning. All rights reserved.
     </footer>
 
+    <script>
+        fetch('paotxt.txt')
+            .then(res => {
+                if (!res.ok) throw new Error('paotxt.txt ဖိုင်ကို မတွေ့ပါ');
+                return res.text();
+            })
+            .then(text => {
+                const navbar = document.getElementById('navbar');
+                const app = document.getElementById('app');
+                
+                let currentSection = null;
+                let currentUl = null;
+
+                text.split('\n').forEach(line => {
+                    line = line.trim();
+                    if (!line || line.startsWith('#')) return;
+
+                    // ၁။ Section အသစ် [ id | Title | Subtitle ]
+                    if (line.startsWith('[') && line.endsWith(']')) {
+                        const parts = line.slice(1, -1).split('|').map(s => s.trim());
+                        const id = parts[0];
+                        const title = parts[1] || id;
+                        const subtitle = parts[2] || '';
+
+                        // Navbar Link ထည့်ခြင်း
+                        const navLink = document.createElement('a');
+                        navLink.href = `#${id}`;
+                        navLink.textContent = title;
+                        navbar.appendChild(navLink);
+
+                        // Section Element ဆောက်ခြင်း
+                        currentSection = document.createElement('section');
+                        currentSection.id = id;
+                        currentSection.className = 'lesson-section';
+
+                        const h2 = document.createElement('h2');
+                        h2.textContent = title;
+                        currentSection.appendChild(h2);
+
+                        if (subtitle) {
+                            const p = document.createElement('p');
+                            p.textContent = subtitle;
+                            currentSection.appendChild(p);
+                        }
+
+                        currentUl = document.createElement('ul');
+                        currentSection.appendChild(currentUl);
+                        app.appendChild(currentSection);
+                    } 
+                    // ၂။ ခေါင်းစဉ်ခွဲများ === Subheading ===
+                    else if (line.startsWith('===') || line.startsWith('###')) {
+                        if (!currentSection) return;
+                        const subTitle = line.replace(/^[=#\s]+|[=#\s]+$/g, '').trim();
+                        
+                        const h3 = document.createElement('h3');
+                        h3.textContent = subTitle;
+                        currentSection.appendChild(h3);
+
+                        currentUl = document.createElement('ul');
+                        currentSection.appendChild(currentUl);
+                    }
+                    // ၃။ စာကြောင်း ဒေတာများ (Key = Value)
+                    else if (line.includes('=')) {
+                        if (!currentUl && currentSection) {
+                            currentUl = document.createElement('ul');
+                            currentSection.appendChild(currentUl);
+                        }
+                        if (!currentUl) return;
+
+                        const parts = line.split('=');
+                        const pao = parts[0].trim();
+                        const rest = parts[1] || '';
+
+                        let pron = '', myan = '';
+                        if (rest.includes(',')) {
+                            const restParts = rest.split(',');
+                            pron = restParts[0].trim();
+                            myan = restParts.slice(1).join(',').trim();
+                        } else {
+                            myan = rest.trim();
+                        }
+
+                        const li = document.createElement('li');
+                        if (pron && myan) {
+                            li.innerHTML = `<strong>${pao}</strong> (${pron}) — ${myan}`;
+                        } else if (myan) {
+                            li.innerHTML = `<strong>${pao}</strong> — ${myan}`;
+                        } else {
+                            li.innerHTML = `<strong>${pao}</strong>`;
+                        }
+                        currentUl.appendChild(li);
+                    }
+                    // ၄။ ရိုးရိုး စာကြောင်းများ (Paragraphs)
+                    else {
+                        if (currentSection) {
+                            const p = document.createElement('p');
+                            p.textContent = line;
+                            currentSection.appendChild(p);
+                        }
+                    }
+                });
+            })
+            .catch(err => console.error('Error loading file:', err));
+    </script>
 </body>
 </html>
