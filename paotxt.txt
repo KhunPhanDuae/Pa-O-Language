@@ -1,23 +1,18 @@
 [home | Home | Welcome to Pa'O Language Learning]
 Learn Pa'O language through our structured lessons and daily conversational practice.
-
-[alphabet | Alphabet | Pa-O Alphabet & Pronunciation]
-က = ka, က
-ခ = kha, ခ
-ဂ = ga, ဂ
-င = nga, င
+Pa'O Speaking.
 
 [greetings | Greetings | Greetings & Common Expressions]
-ခွဲးဟောဝ်ဒျာႏ = kawe-har-dyar, မင်္ဂလာပါ
-အုံဟောဝ်နေꩻ = on hwan-nay, နေကောင်းရဲ့လား
-ကေႏဇူꩻတင်ႏငါႏ = kay-ju-tang-ngar, ကျေးဇူးတင်ပါတယ်
-ကျိုႏဆွုမ်ႏဒျာႏ = kyoe shoe dyar, ကြိုဆိုပါတယ်
+ကျိုႏဆွုမ်ႏဒျာႏဩ = kyo-shwom-dyar-aow, ကြိုဆိုပါတယ် (Welcome)
+မင်္ဂလာႏဒျာႏဩ = mang-ga-lar-dyar-aow, မင်္ဂလာပါ (Hello)
+ကေႏဇူꩻတင်ႏငါႏဩ = kay-ju-tang-ngar-aow, ကျေးဇူးတင်ပါတယ် (Thank you)
 လွေꩻကနေား = lway ka naw, သွားတော့မယ်နော်
 ဆုဲင်ꩻမဲ့ꩻခွဲးယင်းဝင်ꩻ = shui mae kwae yang wang, နောက်မှပြန်တွေ့ကြမယ်
-မော့ꩻခွဲးဗာႏတောဝ်းဝင်ꩻညလဲဉ်း = mort kwae ba taow wang nya len, မတွေ့တာကြာပြီ
+ထီႏဗာႏတောဝ်းညလဲဉ်း = htee-bar-town-ngya-len, မတွေ့တာကြာပြီ (Long time no see)
+မော့ꩻခွဲးဗာႏနာꩻ သꩻရေꩻငါႏ = morth-kwae-bar-ner-sa-ray-ngar, တွေ့ရတာ ဝမ်းသာပါတယ် (Nice to meet you)
 အုံဟောဝ်ဟောဝ်နေား = om hwan hwan naw, ဂရုစိုက်ပါနော်
 ထွာတောဝ်းမုဲင်ꩻမုဲင်ꩻ = htwar taw mui mui, ရပါတယ် / ကိစ္စမရှိပါဘူး
-မင်္ဂလာႏဒျာႏ မွူးရောဝ်ꩻခိုႏဩ= mang-ga-lar dyar mue raw kho ow, မင်္ဂလာနံနက်ခင်းပါ
+မင်္ဂလာႏဒျာႏ မွူးရောဝ်ꩻခိုႏဩ = mang-ga-lar dyar mue raw kho ow, မင်္ဂလာနံနက်ခင်းပါ
 မင်္ဂလာႏဒျာႏ မွူးဟာခိုႏဩ = mang-ga-lar dyar mue har kho ow, မင်္ဂလာညချမ်းပါ
 ဗေင်ႏဟောဝ်ဟောဝ်နေား = bain hwan hwan naw, ကောင်းသောညပါ / အိပ်မက်လှလှမက်ပါစေ
 လွေꩻဟောဝ်သဲင်ꩻဟောဝ်နေား = lway hwan thein hwan naw, ဘေးကင်းစွာ သွားလာနိုင်ပါစေ
@@ -26,7 +21,7 @@ Learn Pa'O language through our structured lessons and daily conversational prac
 
 === Basic Verbs ===
 အံႏ = am, စားသည်
-အွꩻ = aw, သောက်သည်
+အွꩻ = awa, သောက်သည်
 ဗေင်ႏ = bain, အိပ်သည်
 လွေꩻ = lway, သွားသည်
 လွဉ် = lawn, လာသည်
@@ -40,7 +35,7 @@ Learn Pa'O language through our structured lessons and daily conversational prac
 ဖေႏ = hpay, ပေးသည်
 အုံ = ong, ထိုင်သည် / နေသည်
 ထွိုင်ႏ = hton, ထသည် / မတ်တပ်ရပ်သည်
-ထွားဒေါ့ꩻ = htwar dawnd , စာဖတ်သည်
+ထွားဒေါ့ꩻ = htwar dawnd, စာဖတ်သည်
 သေ = say, သိသည်
 ကျွိုက် = kyoik, ကြိုက်သည်
 ယူႏ = yuu, တွေးသည် / စဉ်းစားသည်
@@ -53,29 +48,30 @@ Learn Pa'O language through our structured lessons and daily conversational prac
 ခွေအောဝ်ႏအံႏဒဲဉ် = kway eor am den, ကျွန်တော် ထမင်းစားနေတယ်
 ခွေအီႏလွေꩻမာꩻ ထာꩻမာꩻ = kway aee lway mar htar mar, ကျွန်တော် အလုပ်သွားမလို့
 ဟန်ႏနီꩻလျားငါႏ = han ni lyar ngar, ဒီနေ့ အရမ်းပူတယ်
-မုဲင်ꩻမုဲင်ꩻတအောဝ်ႏတဝ်း = mui mui ta eor taw, ကိစ္စမရှိပါဘူး / ရပါတယ်
-ခွေသေတဝ်း = kway sey taw, ကျွန်တော် မသိဘူး
+မုဲင်ꩻမုဲင်ꩻတအောဝ်ႏတဝ်း = mui mui ta eor taow, ကိစ္စမရှိပါဘူး / ရပါတယ်
+ခွေသေတောဝ်း = kway sey town, ကျွန်တော် မသိဘူး
 ခွေရွိုးငါႏ = kway rwo ngar, ကျွန်တော် မောတယ် / ပင်ပန်းတယ်
 ခွေသꩻရေꩻမွေးငါႏ = kway tha yay ngar, ကျွန်တော် အရမ်းဝမ်းသာပါတယ်
 ယို အံႏအွီႏမွေးငါႏ = yo am awee mwe ngar, ဒါ အရမ်းအရသာရှိတယ်
 ထာꩻမာꩻထွူလဲဉ်း = htar mar thoo len, အလုပ်ပြီးသွားပြီ
-ယိုနဝ်ꩻဟောဝ်ငါႏ = yo naw hwan ngar, ဒါ အရမ်းကောင်းတယ်
-ခွေအောဝ်ႏဒျာႏ လမ်း = kway eor dyar lam, ကျွန်တော် အိမ်မှာရှိတယ်
-နာꩻအောဝ်ႏလွေꩻထာꩻ = na eor lway htar,မင်းသွားနေတယ်
-ဝွေꩻအောဝ်ႏဗေင်ႏထာꩻ = way eor-bain-htar,သူအိပ်နေတယ်
-=== Questions ===
-နာꩻဟို့ꩻခိုးနေꩻဒဲဉ်? = na hoet koe nay den,မင်းဗိုက်ဆာလား?
-နာꩻအီႏလွေꩻမုဲင်ꩻ? = na aee-lway-mai,မင်းဘယ်သွားမလဲ
-နာꩻမဉ်ꩻတမုဲင်ꩻ = na-me ta-mai,နာမည်ဘယ်လိုခေါ်လဲ
-မွေး= mway,ဟုတ်
-မွေးတောဝ်း = mway-tar,မဟုတ်ဘူး
-တဆင်ႏ =ta-shang,ခဏလေး
-တဆင်ႏမွိုင်ꩻ=ta shang mone,တစ်ချက်လောက်
-ခွေမဉ်ꩻနဝ်ꩻ...ဒျာႏသွူ =kway me naw ... dyar swoo, ငါနာမည်က...ပါ
+ယိုနောဝ်ꩻ ဟောဝ်မွေးငါႏ = yo naw hwan ngar, ဒါ အရမ်းကောင်းတယ်
+ခွေအောဝ်ႏဒျာႏ လမ်း = kway ao dyar lam, ကျွန်တော် အိမ်မှာရှိတယ်
+ဝွေꩻအောဝ်ႏဗေင်ႏထာꩻ = way eor-bain-htar, သူအိပ်နေတယ်
 
-
-
+=== Questions & Responses ===
+နာꩻအုံဟောဝ်ဒျာႏနဲ့? = ner-om-hown-dyar-nae, နင် နေကောင်းရဲ့လား (How are you?)
+ခွေအုံဟောဝ်ဒျာႏ = kway-om-hown-dyar, ငါ နေကောင်းပါတယ် (I am fine)
+နာꩻဟို့ꩻခိုးနေဒဲဉ်? = na hoet koe nay den, မင်းဗိုက်ဆာလား?
+နာꩻအီႏလွေꩻမုဲင်ꩻ? = na aee-lway-mai, မင်းဘယ်သွားမလဲ
+နာꩻမဉ်ꩻတမုဲင်ꩻ? = ner-meen-ta-mai, နင့်နာမည် ဘယ်လိုခေါ်လဲ (What is your name?)
+ခွေမဉ်ꩻနောဝ်ꩻ.....ဒျာႏ = kway-meen-nown.....dyar, ငါ့နာမည်.....လို့ခေါ်ပါတယ် (My name is...)
+နာꩻအောဝ်ႏအွိုးမုဲင်ꩻလွဉ်ဟောင်း? = ner-aow-awo-mai-lowan-how, နင် ဘယ်ကလာတာလဲ (Where are you from?)
+ခွေအောဝ်ႏ.....လွဉ် = kway-aown-.....lowan, ငါ.....က လာတာပါ (I am from...)
+မွေး = mway, ဟုတ်
+မွေးတောဝ်း = mway-tar, မဟုတ်ဘူး
+တဆင်ႏ = ta-shang, ခဏလေး
+တဆင်ႏမွိုင်ꩻ = ta shang mom, တစ်ချက်လောက်
 
 [workplace | Workplace | Workplace & Daily Activities]
-အဝ်ႏမာꩻ ထာꩻမာꩻ = aw mar htar mar, အလုပ်လုပ်နေတယ်
-မာꩻထွူလဲဉ်းနဲ့ = mar thoo len nae?, လုပ်ပြီးပြီလား
+အောဝ်ႏမာꩻ ထာꩻမာꩻ = ao mar htar mar, အလုပ်လုပ်နေတယ်
+မာꩻထွူလဲဉ်းနဲ့ = mar htou len nae?, လုပ်ပြီးပြီလား
